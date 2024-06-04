@@ -110,3 +110,13 @@ This points Prisma to our schema file located in the src/db directory.
 **Zod** is a TypeScript-first schema declaration and validation library. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures.
 
 more about zod: https://zod.dev/
+
+## UI
+
+### Storybook
+
+**_Storybook_** is a frontend workshop for building UI components and pages in isolation. It helps you develop and share hard-to-reach states and edge cases without needing to run your whole app. Thousands of teams use it for UI development, testing, and documentation. It's open source and free.
+
+to run storybook: `pnpm run storybook` and `CTRL+C` to stop
+
+doc: https://storybook.js.org/docs/get-started/nextjs
